@@ -1,0 +1,49 @@
+<nav id="mainNav" class="navbar navbar-fixed-top navbar-light bg-faded-cstm">
+    <div class="container">
+        <button class="navbar-toggler hidden-md-up right" type="button" data-toggle="collapse" data-target="#exCollapsingNavbar2">
+            &#9776;
+        </button>
+        <a class="navbar-toggler hidden-md-up right" href="tel:12345678">
+            <span class="icon-phone"></span>
+        </a>
+        <a class="navbar-brand" href="/"><b>Wowportret.ru</b></a>
+        <div class="collapse navbar-toggleable-sm right" id="exCollapsingNavbar2">
+            <ul class="nav navbar-nav navbar-right">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+                        <b>Услуги</b></a>
+                    <div class="dropdown-menu shdw">
+                        <a class="dropdown-item" href="{% url 'wowportret.views.holst_page' %}"><b>Фото на холсте</b></a>
+                        <a class="dropdown-item" href="{% url 'wowportret.views.portret_page' %}"><b>Имитация масла</b></a>
+                        <a class="dropdown-item" href="{% url 'wowportret.views.art_page' %}"><b>Пропись маслом</b></a>
+                        <a class="dropdown-item" href="{% url 'wowportret.views.classic_page' %}"><b>Pop Art Портрет</b></a>
+                        <a class="dropdown-item" href="{% url 'wowportret.views.classic_page' %}"><b>Галерея картин</b></a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link {% ifequal request.path '/price/' %} active {% endifequal%}" href="/price/"><b>Цены</b></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link {% ifequal request.path '/baget/' %} active {% endifequal%}" href="/gallery/65/"><b>Багетные рамы</b></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link {% ifequal request.path '/gallery/' %} active {% endifequal%}" href="/gallery/"><b>Галерея</b></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link {% ifequal request.path '/post/' %} active {% endifequal%}" href="/post/"><b>Новости</b></a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+                        <b>Доставка/Оплата</b></a>
+                    <div class="dropdown-menu shdw">
+                        <a class="dropdown-item" href="{% url 'wowportret.views.delivery_page' %}"><b>Доставка</b></a>
+                        <a class="dropdown-item" href="{% url 'wowportret.views.payment_page' %}"><b>Оплата</b></a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link {% ifequal request.path '/contacts/'%} active {% endifequal%}" href="/contacts/"><b>Контакты</b></a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>

@@ -1,0 +1,100 @@
+{% extends 'wowportret/base.html' %} {% load staticfiles %} {% block content %}
+<div class="container-fluid white mt">
+    <div class="row">
+        <div class="header-main">
+            <div class="col-md-5 hidden-sm-down">
+                <img class="mt" src="{% static 'img/content/main/super_guy.png' %}" alt="">
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-7">
+                <div class="main">
+                    <h1 style="margin-top: 125px">Лучший подарок, на любой праздник - Картина</h1>
+                </div>
+            </div>
+        </div>
+        <div style="background: url({% static 'img/content/main/floor.jpg' %}) repeat; min-height: 182px">
+        </div>
+    </div>
+</div>
+<div class="container white mt-main add-shdw">
+    <div class="row">
+        <div class="col-xs-12 text-xs-center">
+            <h2 class="h-holst"> <strong> В каких случая стоит дарить <br /> портрет на холсте: </strong> </h2>
+        </div>
+    </div>
+    <div class="row text-xs-center">
+        <div class="col-xs-12 col-md-4 text-xs-center">
+            <p class="circle red"></p>
+            <h3>Задумываетесь сделать оригинальный подарок</h3>
+        </div>
+        <div class="col-xs-12 col-md-4 text-xs-center">
+            <p class="circle yellow"></p>
+            <h3>Желаете удивить своим подарком</h3>
+        </div>
+        <div class="col-xs-12 col-md-4 text-xs-center">
+            <p class="circle blue"></p>
+            <h3>Хотите преподнести индивидуальный подарок</h3>
+        </div>
+    </div>
+    <div class="row mt">
+        <div class="col-xs-12 text-xs-center mt">
+            <h2><span class="yellow">Вариатны потретров</span></h2>
+        </div>
+    </div>
+    <div class="gal-bg">
+        <div class="row">
+            <div class="col-xs-12 col-sm-6 col-lg-4 text-xs-center">
+                <img class="img-responsive" src="{% static 'img/content/main/art1.jpg' %}" alt="">
+                <a class="a-glr hvr-underline-from-left" href="/popart/">Поп Арт</a>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-lg-4 text-xs-center">
+                <img class="img-responsive " src="{% static 'img/content/main/art2.jpg' %}" alt="">
+                <a class="a-glr hvr-underline-from-left" href="/portret/">Портрет в образе</a>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-lg-4 text-xs-center">
+                <img class="img-responsive" src="{% static 'img/content/main/art3.jpg' %}" alt="">
+                <a class="a-glr hvr-underline-from-left" href="/classic/">Классический портрет</a>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-lg-4 text-xs-center">
+                <img class="img-responsive" src="{% static 'img/content/main/art4.jpg' %}" alt="">
+                <a class="a-glr hvr-underline-from-left" href="/art/">Арт обработка</a>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-lg-4 text-xs-center">
+                <img class="img-responsive" src="{% static 'img/content/main/art5.jpg' %}" alt="">
+                <a class="a-glr hvr-underline-from-left" href="/holst/">Фото на холсте</a>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-lg-4 text-xs-center">
+                <img class="img-responsive " src="{% static 'img/content/main/art6.jpg' %}" alt="">
+                <a class="a-glr hvr-underline-from-left" href="/maslo2/">Имитация масла</a>
+            </div>
+            <div class="col-xs-12 col-sm-offset-3 col-sm-6 col-lg-offset-0 col-lg-4 text-xs-center">
+                <img class="img-responsive" src="{% static 'img/content/main/art7.jpg' %}" alt="">
+                <a class="a-glr hvr-underline-from-left" href="/maslo/">Пропись маслом</a>
+            </div>
+        </div>
+        <div class="row hidden-md-down">
+            <div class="how-to mt text-xs-center">
+                <div style="margin-top: 15px;">
+                    <p id="how-top" class="how-to-text">
+                        Как мы это делаем
+                    </p>
+                    <p id="how-left" class="how-to-text">
+                        Оформляем в деревянный багет
+                    </p>
+                    <p id="how-right" class="how-to-text">
+                        Дорабатываем арт гелем или маслом
+                    </p>
+                </div>
+                <div style="margin-top: 50px;">
+                    <p id="how-btm-right" class="how-to-text">
+                        Натягиваем на деревянный подрамник
+                    </p>
+                    <p id="how-btm-left" class="how-to-text">
+                        Печатаем на натуральном холсте
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+{% endblock content %}
