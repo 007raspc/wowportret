@@ -51,3 +51,7 @@ Temporary Items
 __pycache__
 /templatetags/*
 /*.py
+
+/__pycache__/*
+/templatetags/*
+/*.py
