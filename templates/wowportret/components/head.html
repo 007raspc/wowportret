@@ -34,4 +34,21 @@
             <script src="{% static 'https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
         <![endif]-->
 
+		<!-- Start init Call Service -->
+		<script type="text/javascript">
+			var CallSiteId = "f3afaf33c61638900d5b6b24645ef27c";
+			var CallBaseUrl = "//uptocall.com";
+			(function() {
+			 var lt = document.createElement("script");
+			 lt.type ="text/javascript";
+			 lt.charset = "utf-8";
+			 lt.async = true;
+			 lt.src = (document.location.protocol == "https:" ? "https:" : "http:") + CallBaseUrl + "/widget/client.js";
+			 var sc = document.getElementsByTagName("script")[0];
+			 if (sc) sc.parentNode.insertBefore(lt, sc);
+			 else document.documentElement.firstChild.appendChild(lt);
+			})();
+		</script>
+		<!-- End init Call Service -->
+		
 </head>
