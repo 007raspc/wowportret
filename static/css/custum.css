@@ -276,3 +276,88 @@ header .nav_top a {
     text-shadow: 2px 2px 0 #fbd100;
 }
 /* ------------------------ end footer style ------------------------- */
+/* ------------------------ end zakaz popup style ------------------------- */
+.loginization .modal-content {
+	text-align: center;
+    font-size: 2em;
+    padding: 20px;
+    background: #4acbd8;
+    z-index: 3;
+    position: relative;
+    color: #FBD100;
+    box-shadow: 10px 10px 0px 0px #93EBD3;
+    border-radius: 0;
+}
+.loginization .modal-header {
+    border-bottom: 0;
+    padding: 20px 40px 0;
+    text-align: left;
+}
+.loginization .modal-header h2 {
+    margin-top: 0;
+    text-shadow: 2px 2px 0 rgb(251, 209, 0);
+    font-size: 1.6em;
+    font-weight: bold;
+    color: #333;
+}
+.loginization .modal-header p {
+    color: #333;
+    font-size: 1.5rem;
+}
+.loginization .modal-footer p {
+    font-size: 1.5rem;
+    padding: 1rem;
+    margin: 0;
+}
+.loginization .modal-body {
+	padding: 10px 40px 20px;
+}
+.loginization .modal-content hr {
+    margin: 0 30%;
+    border-top: 3px dashed #FBD100;
+}
+.loginization .modal-footer {
+    border: none;
+    padding: 0;
+}
+.zauava input {
+    display: block;
+    margin: 10px auto;
+    line-height: 1.2;
+    font-size: 1.5rem;
+    color: #555;
+    background-color: #fff;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    padding: 10px 20px;
+    border: 5px solid #ccc;
+    border-radius: 50px;
+}
+.zauava input:focus, .zauavka select:focus {
+    border-color: #fed136;
+    box-shadow: none;
+}
+.knopka {
+    padding: 10px 20px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    background: #07beb6;
+    -webkit-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    transition: all 0.2s;
+    border-radius: 50px;
+    border: 0;
+}
+.zakaz {
+    background: #EF9280;
+}
+.knopka:hover {
+    color: #333;
+    background: #FEFE9A;
+    text-decoration: none;
+}
+/* ------------------------ end zakaz popup style ------------------------- */
