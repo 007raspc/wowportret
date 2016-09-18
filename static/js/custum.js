@@ -5,6 +5,7 @@ jQuery(function(f){
     });
 });
 
-$( "#target" ).click(function() {
-  alert( "Handler for .click() called." );
+$( "#callback" ).click(function() {
+  $( '#id_content' ).css('display','none');
 });
+

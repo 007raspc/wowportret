@@ -57,7 +57,7 @@ class ContactForm(forms.Form):
     contact_phone = forms.CharField(
         label='Ваш телефон', required=True, max_length=20)
     contact_email = forms.EmailField(
-        label='Ваша почта', required=True, max_length=70)
+        label='Ваша почта', required=False, max_length=70)
     content = forms.CharField(
         label='Ваше сообщение',
         required=False,
