@@ -23,6 +23,14 @@
 #mainNav a.navbar-toggler.right {
 	color: #333;
 }
+#mainNav .navbar-nav {
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
 /* -------------------------- start first line style ------------------------- */
 header .logo-image {
     margin-right: 20px;
@@ -403,3 +411,11 @@ header .nav_top a {
 	}
 }
 /* ------------------------- End online zakaz left -------------------------- */
+/* ------------------------- Start back to top ------------------------ */
+#back-to-top {
+	z-index: 999;
+    position: fixed;
+    right: 3rem;
+    bottom: 3rem;
+}
+/* ------------------------- Start back to top ------------------------ */
